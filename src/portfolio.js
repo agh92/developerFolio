@@ -121,23 +121,40 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "Technical University of Applied Sciences Wildau",
+      logo: require("./assets/images/thWildauLogo.jpeg"),
+      subHeader: "Master of Engineering in Telematics",
+      duration: "2015 - 2018",
+      desc: "Awarded for outstanding achievements as foreign student at a German university by the German Academic Exchange Service (DAAD)",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Computer Vision",
+        "Machine Learning",
+        "Numerical analysis",
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "Technical University of Applied Sciences Wildau",
+      logo: require("./assets/images/thWildauLogo.jpeg"),
+      subHeader: "Bachelor of Engineering in Telematics",
+      duration: "2012 - 2015",
+      desc: "Graduated with honors",
+      descBullets: [
+        "Distributed Systems",
+        "Software Engineering",
+        "IT Security and Networks",
+      ]
+    },
+    {
+      schoolName: "Deutsche Schule Medellín",
+      logo: require("./assets/images/ibLogo.jpeg"),
+      subHeader: "School Education",
+      duration: "1996 - 2011",
+      desc: "Graduated with International Baccalaureate (IB)",
+      descBullets: [
+        "Volunteer at Integrar a social development organization",
+        "School exchange in Erich-Fried-Gesamtschule Ronsdorf",
+        "Part of the basketball team"
+      ]
     }
   ]
 };
