@@ -186,29 +186,39 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Software Developer",
+      company: "Assecor GmbH",
+      companylogo: require("./assets/images/assecorLogo.jpeg"),
+      date: "May 2022 – Present",
+      desc: "Development and support of multiple microservices running on the cloud.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Microservices with Spring Boot",
+        "AWS as Cloud Provider",
+        "CI/CD with Gitlab"
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Development Engineer",
+      company: "IAV GmbH",
+      companylogo: require("./assets/images/iavLogo.png"),
+      date: "Jun 2014 – Mar 2022",
+      desc: "Fullstack development of multemedia applications based on node.js web services and angular applications.",
+      descBullets: [
+        "Node.js web services",
+        "Angular applications",
+        "CI/CD with Jenkins"
+      ]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Working Student",
+      company: "Technical University of Applied Sciences Wildau",
+      companylogo: require("./assets/images/thWildauLogo.jpeg"),
+      date: "Feb 2013 – Jun 2014",
+      desc: "Maintainance of the campus' and the library's iOS applications.",
+      descBullets: [
+        "REST API Specification",
+        "Mobile App Development"
+      ]
     }
   ]
 };
