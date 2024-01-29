@@ -133,31 +133,6 @@ const educationInfo = {
       ]
     },
     {
-      schoolName: "Imperial College London",
-      logo: require("./assets/images/imperialLogo.jpeg"),
-      subHeader: "Mathematics for Machine Learning Online Specialization",
-      duration: "2018",
-      desc: "Prerequisite mathematics for applications in data science and machine learning.",
-      descBullets: [
-        "Linear Algebra",
-        "Multivariate Calculus",
-        "PCA",
-      ]
-    },
-    {
-      schoolName: "University of Maryland, College Park",
-      logo: require("./assets/images/marylandLogo.jpeg"),
-      subHeader: "Cybersecurity Online Specialization",
-      duration: "2017",
-      desc: "Fundamental concepts underlying the construction of secure systems.",
-      descBullets: [
-        "Hardware Security",
-        "Software Security",
-        "Cryptography",
-        "Usable Security"
-      ]
-    },
-    {
       schoolName: "Technical University of Applied Sciences Wildau",
       logo: require("./assets/images/thWildauLogo.jpeg"),
       subHeader: "Bachelor of Engineering in Telematics",
@@ -297,6 +272,37 @@ const achievementSection = {
           name: "TH-Wildau Blog",
           url: "https://www.th-wildau.de/hochschule/aktuelles/neuigkeiten/news/preis-des-deutschen-akademischen-austauschdienstes-daad-2016-an-kolumbianischen-masterstudenten-d/"
         }
+      ]
+    },
+    {
+      title: "Mathematics for Machine Learning Specialization",
+      subtitle: "Prerequisite mathematics for applications in data science and machine learning by Imperial College London.",
+      image: require("./assets/images/imperialLogo.jpeg"),
+      imageAlt: "Imperial College London Logo",
+      footerLink: [
+        {
+          name: "Certificate",
+          url: "https://www.coursera.org/account/accomplishments/specialization/FBU44PUWNMW5"
+        },
+        {name: "Linear Algebra"},
+        {name: "Multivariate Calculus"},
+        {name: "PCA"},
+      ]
+    },
+    {
+      title: "Cybersecurity Specialization",
+      subtitle: "Fundamental concepts underlying the construction of secure systems by University of Maryland, College Park.",
+      image: require("./assets/images/marylandLogo.jpeg"),
+      imageAlt: "University of Maryland, College Park Logo",
+      footerLink: [
+        {
+          name: "Certificate",
+          url: "https://www.coursera.org/account/accomplishments/specialization/7FPPQ335RJRM"
+        },
+        {name: "Hardware Security"},
+        {name: "Software Security"},
+        {name: "Cryptography"},
+        {name: "Usable Security"}
       ]
     },
     {
