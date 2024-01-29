@@ -133,6 +133,31 @@ const educationInfo = {
       ]
     },
     {
+      schoolName: "Imperial College London",
+      logo: require("./assets/images/imperialLogo.jpeg"),
+      subHeader: "Mathematics for Machine Learning Online Specialization",
+      duration: "2018",
+      desc: "Prerequisite mathematics for applications in data science and machine learning.",
+      descBullets: [
+        "Linear Algebra",
+        "Multivariate Calculus",
+        "PCA",
+      ]
+    },
+    {
+      schoolName: "University of Maryland, College Park",
+      logo: require("./assets/images/marylandLogo.jpeg"),
+      subHeader: "Cybersecurity Online Specialization",
+      duration: "2017",
+      desc: "Fundamental concepts underlying the construction of secure systems.",
+      descBullets: [
+        "Hardware Security",
+        "Software Security",
+        "Cryptography",
+        "Usable Security"
+      ]
+    },
+    {
       schoolName: "Technical University of Applied Sciences Wildau",
       logo: require("./assets/images/thWildauLogo.jpeg"),
       subHeader: "Bachelor of Engineering in Telematics",
