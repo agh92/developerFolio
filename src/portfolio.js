@@ -21,9 +21,9 @@ const illustration = {
 
 const greeting = {
   username: "Andres Gil",
-  title: "Hi all, I'm Andres",
+  title: "Hello there, I'm Andrés",
   subTitle: emoji(
-    "A passionate Software Developer 🚀 having an experience of building Software and Infrastructure with JavaScript / Python / Nodejs / Spring Boot / AWS."
+    "a clean coder with over 10 years of building software and a weekend warrior trying to conquer a 7A Boulder and 7A sport climbing route."
   ),
   resumeLink: null, // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
@@ -51,7 +51,7 @@ const skillsSection = {
   subTitle: "SOFTWARE ENGINEER EAGER TO SOLVE PROBLEMS",
   skills: [
     emoji("⚡ Develop high quality software"),
-    emoji("⚡ Practice DevOps and CI/CD"),
+    emoji("⚡ DevOps practitioner"),
     emoji("⚡ React to changing customer needs")
   ],
 
@@ -190,7 +190,7 @@ const workExperiences = {
       company: "Assecor GmbH",
       companylogo: require("./assets/images/assecorLogo.jpeg"),
       date: "May 2022 – Present",
-      desc: "Development and support of multiple microservices running on the cloud.",
+      desc: "Development and support of microservices running on the cloud",
       descBullets: [
         "Microservices with Spring Boot",
         "AWS as Cloud Provider",
@@ -202,7 +202,7 @@ const workExperiences = {
       company: "IAV GmbH",
       companylogo: require("./assets/images/iavLogo.png"),
       date: "Jun 2014 – Mar 2022",
-      desc: "Fullstack development of multemedia applications based on node.js web services and angular applications.",
+      desc: "Fullstack development of multimedia applications with Node.js and Angular",
       descBullets: [
         "Node.js web services",
         "Angular applications",
@@ -214,7 +214,7 @@ const workExperiences = {
       company: "Technical University of Applied Sciences Wildau",
       companylogo: require("./assets/images/thWildauLogo.jpeg"),
       date: "Feb 2013 – Jun 2014",
-      desc: "Maintainance of the campus' and the library's iOS applications.",
+      desc: "Maintainance of the campus' and the library's iOS applications",
       descBullets: [
         "REST API Specification",
         "Mobile App Development"
@@ -259,12 +259,12 @@ const bigProjects = {
 const achievementSection = {
   title: emoji("Achievements And Certifications 🏆 "),
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    "Achievements, Certifications and Some Cool Stuff that I have done!",
 
   achievementsCards: [
     {
       title: "DAAD Price Winner",
-      subtitle: "Price for outstanding achievements by foreign students at German universities.",
+      subtitle: "Price for outstanding achievements by foreign students at German universities",
       image: require("./assets/images/daadLogo.jpeg"),
       imageAlt: "DAAD Logo",
       footerLink: [
@@ -276,7 +276,7 @@ const achievementSection = {
     },
     {
       title: "Mathematics for Machine Learning Specialization",
-      subtitle: "Prerequisite mathematics for applications in data science and machine learning by Imperial College London.",
+      subtitle: "Prerequisite mathematics for applications in data science and machine learning by Imperial College London",
       image: require("./assets/images/imperialLogo.jpeg"),
       imageAlt: "Imperial College London Logo",
       footerLink: [
@@ -291,7 +291,7 @@ const achievementSection = {
     },
     {
       title: "Cybersecurity Specialization",
-      subtitle: "Fundamental concepts underlying the construction of secure systems by University of Maryland, College Park.",
+      subtitle: "Fundamental concepts underlying the construction of secure systems by University of Maryland, College Park",
       image: require("./assets/images/marylandLogo.jpeg"),
       imageAlt: "University of Maryland, College Park Logo",
       footerLink: [
