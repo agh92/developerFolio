@@ -8,7 +8,6 @@ import {
   workExperiences,
   skillsSection,
   openSource,
-  blogSection,
   talkSection,
   achievementSection,
   bigProjects
@@ -20,7 +19,6 @@ function Header() {
   const viewOpenSource = openSource.display;
   const viewSkills = skillsSection.display;
   const viewAchievement = achievementSection.display;
-  const viewBlog = blogSection.display;
   const viewTalks = talkSection.display;
   const viewProjects = bigProjects.display;
 
@@ -71,9 +69,6 @@ function Header() {
               <a href="#talks">Talks</a>
             </li>
           )}
-          {/* <li>
-            <a href="#contact">Contact Me</a>
-          </li> */}
           <li>
             {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
             <a>
