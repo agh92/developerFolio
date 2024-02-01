@@ -23,7 +23,7 @@ const greeting = {
   username: "Andres Gil",
   title: "Hello there, I'm Andrés",
   subTitle: emoji(
-    "a clean coder with over 10 years of building software and a weekend warrior trying to conquer a 7A Boulder and 7A sport climbing route."
+    "a clean code enthusiast with over 10 years of experience building software 🧑‍💻 and a weekend warrior trying to conquer 7A boulder and 7A sport climbing route 🧗"
   ),
   resumeLink: null, // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
@@ -33,7 +33,7 @@ const greeting = {
 
 const socialMediaLinks = {
   github: "https://github.com/agh92",
-  linkedin: "www.linkedin.com/in/andres-gil-herrera",
+  linkedin: "https://www.linkedin.com/in/andres-gil-herrera/",
   //gmail: "saadpasta70@gmail.com",
   //gitlab: "https://gitlab.com/saadpasta",
   //facebook: "https://www.facebook.com/saad.pasta7",
@@ -48,7 +48,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "SOFTWARE ENGINEER EAGER TO SOLVE PROBLEMS",
+  subTitle: "",
   skills: [
     emoji("⚡ Develop high quality software"),
     emoji("⚡ DevOps practitioner"),
@@ -60,56 +60,64 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
+      skillName: "Java",
+      fontAwesomeClassname: "fab fa-java"
     },
     {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
+      skillName: "Spring",
+      fontAwesomeClassname: "fas fa-leaf"
+    },
+    {
+      skillName: "Python",
+      fontAwesomeClassname: "fab fa-python"
     },
     {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
     },
     {
-      skillName: "nodejs",
+      skillName: "Node.js",
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
+      skillName: "SQL",
       fontAwesomeClassname: "fas fa-database"
     },
     {
-      skillName: "aws",
+      skillName: "Terraform",
+      fontAwesomeClassname: "fas fa-file-code"
+    },
+    {
+      skillName: "AWS",
       fontAwesomeClassname: "fab fa-aws"
     },
     {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
+      skillName: "Docker",
       fontAwesomeClassname: "fab fa-docker"
     },
     {
-      skillName: "java",
-      fontAwesomeClassname: "fab fa-java"
+      skillName: "Git",
+      fontAwesomeClassname: "fab fa-git-alt"
     },
     {
-      skillName: "gitlab",
+      skillName: "Gitlab",
       fontAwesomeClassname: "fab fa-gitlab"
     },
     {
-      skillName: "jenkins",
+      skillName: "Jenkins",
       fontAwesomeClassname: "fab fa-jenkins"
     },
     {
-      skillName: "git",
-      fontAwesomeClassname: "fab fa-git-alt"
+      skillName: "Atlassian",
+      fontAwesomeClassname: "fab fa-atlassian"
+    },
+    {
+      skillName: "HTML",
+      fontAwesomeClassname: "fab fa-html5"
+    },
+    {
+      skillName: "CSS",
+      fontAwesomeClassname: "fab fa-css3-alt"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -307,7 +315,7 @@ const achievementSection = {
     },
     {
       title: "Udemy Learning",
-      subtitle: "I am always exploring new technologies.",
+      subtitle: "I am always exploring new technologies",
       image: require("./assets/images/udemyLogo.png"),
       imageAlt: "Udemy Logo",
       footerLink: [
