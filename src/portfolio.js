@@ -130,7 +130,7 @@ const educationInfo = {
   schools: [
     {
       schoolName: "Technical University of Applied Sciences Wildau",
-      logo: require("./assets/images/thWildauLogo.jpeg"),
+      logo: require("./assets/images/thWildauLogo.png"),
       subHeader: "Master of Engineering in Telematics",
       duration: "2015 - 2018",
       desc: "Awarded for outstanding achievements as foreign student at a German university by the German Academic Exchange Service (DAAD)",
@@ -142,7 +142,7 @@ const educationInfo = {
     },
     {
       schoolName: "Technical University of Applied Sciences Wildau",
-      logo: require("./assets/images/thWildauLogo.jpeg"),
+      logo: require("./assets/images/thWildauLogo.png"),
       subHeader: "Bachelor of Engineering in Telematics",
       duration: "2012 - 2015",
       desc: "Graduated with honors",
@@ -154,7 +154,7 @@ const educationInfo = {
     },
     {
       schoolName: "Deutsche Schule Medellín",
-      logo: require("./assets/images/ibLogo.jpeg"),
+      logo: require("./assets/images/ibLogo.png"),
       subHeader: "School Education",
       duration: "1996 - 2011",
       desc: "Graduated with International Baccalaureate (IB)",
@@ -220,7 +220,7 @@ const workExperiences = {
     {
       role: "Working Student",
       company: "Technical University of Applied Sciences Wildau",
-      companylogo: require("./assets/images/thWildauLogo.jpeg"),
+      companylogo: require("./assets/images/thWildauLogo.png"),
       date: "Feb 2013 – Jun 2014",
       desc: "Maintainance of the campus' and the library's iOS applications",
       descBullets: [
@@ -273,7 +273,7 @@ const achievementSection = {
     {
       title: "DAAD Price Winner",
       subtitle: "Price for outstanding achievements by foreign students at German universities",
-      image: require("./assets/images/daadLogo.jpeg"),
+      image: require("./assets/images/daadLogo.png"),
       imageAlt: "DAAD Logo",
       footerLink: [
         {
