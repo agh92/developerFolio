@@ -133,7 +133,7 @@ const educationInfo = {
       logo: require("./assets/images/thWildauLogo.png"),
       subHeader: "Master of Engineering in Telematics",
       duration: "2015 - 2018",
-      desc: "Awarded for outstanding achievements as foreign student at a German university by the German Academic Exchange Service (DAAD)",
+      desc: "Awarded the DAAD Prize",
       descBullets: [
         "Computer Vision",
         "Machine Learning",
@@ -271,15 +271,19 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "DAAD Price Winner",
-      subtitle: "Price for outstanding achievements by foreign students at German universities",
+      title: "DAAD Prize Winner 2016",
+      subtitle: "Awarded to international students for outstanding academic achievements and active participation in university life",
       image: require("./assets/images/daadLogo.png"),
       imageAlt: "DAAD Logo",
       footerLink: [
         {
           name: "TH-Wildau Blog",
           url: "https://www.th-wildau.de/hochschule/aktuelles/neuigkeiten/news/preis-des-deutschen-akademischen-austauschdienstes-daad-2016-an-kolumbianischen-masterstudenten-d/"
-        }
+        },
+        {
+          name: "DAAD Prize TH Wildau",
+          url: "https://en.th-wildau.de/university/central-facilities/centre-for-international-affairs/international-office/daad-prize/"
+        },
       ]
     },
     {
